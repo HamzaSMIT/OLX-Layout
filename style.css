@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto',Helvetica , sans-serif; */
+.navbar{
+    width: 100%;
+    height: 119px;
+    display: block;
+    position: sticky;
+    background-color: #f7f8f8;
+    /* border: 1px solid black; */
+}
+.linklogos{
+    height: 39px;
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.bluelogo img{
+    width: 32px;
+    height: 20px;
+}
+
+
+.carlogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 4px;
+}
+.carlogo span{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #222222;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.carlogo img{
+    width: 23px;
+    height: 23px;
+}
+.carlogo a{
+    text-decoration: none;
+}
+.carlogo span:hover{
+    color: #3a77ff;
+}
+
+
+.propertylogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 60px;
+    display: flex;
+    margin-top: 4px;
+}
+.propertylogo span{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #222222;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.propertylogo img{
+    width: 23px;
+    height: 23px;
+}
+.propertylogo a{
+    text-decoration: none;
+}
+.propertylogo span:hover{
+    color: #3a77ff;
+}
+
+
+.searchbar{
+    width: 1280px;
+    height: 70px;
+    margin: 0 auto;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 0px ;
+}
+.logo{
+    width: 61.1562px;
+    height: 37px;
+}
+.searchbar ul{
+    display: flex;
+    padding-top: 1em;
+    list-style:none ;
+}
+.searchbar a{
+    text-decoration: none;
+    padding-top: 1em;
+}
+.searchbar .input1{
+    border: 2px solid #012f34;
+    height: 48px;
+    width: 272px;
+    border-radius: 4px;
+    margin-right: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.searchbar .input2{
+    border: 2px solid #012f34;
+    height: 48px;
+    width: 651px;
+    border-radius: 4px;
+    padding: 0px 10px 0px 10px;
+    margin-right: 30px;
+}
+.searchbar .login{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 15.96px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.searchbar .login a{
+    color: #002f34 ;
+
+}
+.searchbar .btnz{
+    width: 122px;
+    height: 58px;
+    background-image: url(./olx-images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 15px 30px;
+    gap: 5px;
+}
+.searchbar .btnz span{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.searchbar .btnz a{
+    color: #002f34;
+}
+
+
+.catogries{
+    height: 48px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 12px 12px 12px 40px;
+    display: flex;
+    gap: 12px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 10%);
+}
+.catogries .dark{
+    font-weight: 700;
+    margin-right: 40px;
+}
+.catogries a{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #222222;
+}
+.carouselbar{
+    width: 95%;
+    margin: 20px auto 50px auto !important;
+}
+
+
+.toppara{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 23.94px;
+    width: 90px;
+    margin: 0px 0px 0px 70px;
+    /* border: 1px solid black; */
+}
+
+
+.work-web{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    margin: 10px auto 0px auto;
+    /* border: 1px solid purple; */
+}
+.work-web .sellcard{
+    width: 100%;
+    height: 148px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+.work-web img{
+    width: 50%;
+    height: 148px;
+}
+.work-web a{
+    text-decoration: none;
+}
+.typebox{
+    height: 137px;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    /* border: 1px solid #3a77ff; */
+}
+.typebox p{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 17px;
+    color: #222222;
+    width: 200px;
+    /* border: 1px solid #3a77ff; */
+}
+
+.typebox h5{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #222222;
+    /* border: 1px solid #3a77ff; */
+    margin-bottom: 30px;
+}
+.typebox span{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 12px;
+    color: #22222271;
+    /* border: 1px solid #3a77ff; */
+}
+.saylaniweb{
+    width: 306px;
+    height: 289px;
+    margin: 0 5px;
+    /* padding: 20px; */
+    border-radius: 4px;
+    border: 1px solid #002f3427;
+}
+
+.loadbtn{
+    margin: 20px 0px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.seebtn:hover{
+    background-color: #222222;
+}
+.seebtn{
+    border: 2px solid #222222;
+    height: 48px;
+    width: 104px;
+    font-weight: 700;
+    color: #222222;
+    padding: 0;
+}
+
+
+.foot{
+    background: rgba(0,47,52,.03);
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.olxpic{
+    height: 200px;
+    width: 440px;
+    background-image: url(./olx-images/olxMobileApp.f5579f77e849b600ad60857e46165516.webp);
+    /* border: 1px solid black; */
+    /* margin-right: 20px; */
+}
+
+.foottext{
+    height: 200px;
+    width: 395px;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    align-items: center;
+    padding: 40px 0px;
+    margin-right: 16px;
+    margin-left: 44px;
+}
+.foottext h3{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.foottext p{
+    font-family: 'Roboto',Helvetica , sans-serif;   
+    font-size: 20px;
+    display: block;
+}
+
+.verticalline{
+    height: 136px;
+    width: 2px;
+    background-color: #002f3452;
+}
+
+.appslink{
+    width: 400px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: 32px;
+    padding: 50px 0px;
+}
+.appslink p{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.appimg{
+    display: flex;
+    gap: 7px;
+}
+.appimg img{
+    height: 40px;
+    width: 128px;
+}
+
+.footer{
+    height: 194px;
+    width: 100%;
+    background: rgba(0, 47, 52, 0.089);
+    border-top: 1px solid #002f3462;
+    display: flex;
+    gap: 90px;
+    padding: 16px 0 64px 0;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 12px;
+    color: #22222271;
+    margin-bottom: 4px;
+}
+.footer a:hover{
+    color: #222222;
+}
+.footerlinks{
+    height: 113px;
+    width: 268px;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+}
+.footerlinks span{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footerlinksimg{
+    display: flex;
+}
+.footerlinksimg img{
+    height: 24px;
+    width: 24px;
+}
+.footerlinksapp{
+    display: flex;
+    gap: 5px;
+}
+.footerlinksapp img{
+    height: 28px;
+    width: 84px;
+    margin-top: 25px;
+}
+
+.copyrights{
+    height: 50px;
+    width: 100%;
+    background-color: #002f34;
+    padding: 16px 60px 16px 0;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+.copyrights span{
+    font-family: 'Roboto',Helvetica , sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    color: #ffffff;
+}
